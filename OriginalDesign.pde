@@ -85,7 +85,8 @@ void Moon()
 {
   fill(255,255,255);
  ellipse(450,60,50,50);
-  
+arc(450,50, 80, 80, 0, PI+QUARTER_PI, OPEN);
+
   
   
 }
@@ -107,5 +108,3 @@ void Ground()
   }
   
   
-
-
